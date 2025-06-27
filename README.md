@@ -1,12 +1,59 @@
-# React + Vite
+# BMI Calculator React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive and beginner-friendly **BMI (Body Mass Index) Calculator** built using **React**. It takes **weight in kilograms** and **height in feet**, calculates the BMI using standard health formulas, and displays the BMI value along with a message indicating the weight category.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Accepts height in **feet** and weight in **kg**
+- Converts values internally for accurate BMI calculation
+- Gives real-time feedback:
+  - Underweight
+  - Normal
+  - Overweight
+  - Obese
+- Fully responsive and clean layout
+- Built with beginner-friendly code and structure
 
-## Expanding the ESLint configuration
+## 📐 Formula Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+BMI is calculated using:
+
+
+> Height in feet is converted to meters automatically in the app.
+
+## 🛠️ Technologies Used
+
+- React (Functional Components)
+- useState Hook
+- HTML/CSS
+
+## 📸 Preview
+
+![screencapture-localhost-5173-2025-06-27-23_39_49](https://github.com/user-attachments/assets/9d5ba133-71ac-4934-b3a9-34e159fc9475)
+ <!-- Replace with actual screenshot if available -->
+
+## 🧠 What I Learned
+
+- How to manage form state in React using `useState`
+- How to convert units (feet to meters)
+- How to calculate BMI and classify the result
+- Building and structuring a React app from scratch
+
+## 📁 Folder Structure
+bmi-calculator-react/
+├── public/
+├── src/
+│ ├── App.js
+│ ├── App.css
+│ └── index.js
+├── README.md
+├── package.json
+
+
+## 🙌 Author
+
+**Muhammad Imran**
+
+---
+
+Feel free to use and modify this app as a base for learning or enhancements!
